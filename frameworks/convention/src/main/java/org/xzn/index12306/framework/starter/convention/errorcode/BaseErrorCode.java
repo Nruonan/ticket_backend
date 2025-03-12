@@ -1,4 +1,4 @@
-package org.xzn.index12306.frameworks.starter.convention.errorcode;
+package org.xzn.index12306.framework.starter.convention.errorcode;
 
 /**
  * @author Nruonan

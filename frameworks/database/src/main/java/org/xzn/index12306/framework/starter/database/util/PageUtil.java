@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import org.xzn.index12306.framework.starter.common.toolkit.BeanUtil;
-import org.xzn.index12306.frameworks.starter.convention.page.PageRequest;
-import org.xzn.index12306.frameworks.starter.convention.page.PageResponse;
+import org.xzn.index12306.framework.starter.convention.page.PageRequest;
+import org.xzn.index12306.framework.starter.convention.page.PageResponse;
 
 /**
  * @author Nruonan

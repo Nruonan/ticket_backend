@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.xzn.index12306.frameworks.starter.convention.result;
+package org.xzn.index12306.framework.starter.convention.result;
 
 import java.io.Serial;
 import java.io.Serializable;

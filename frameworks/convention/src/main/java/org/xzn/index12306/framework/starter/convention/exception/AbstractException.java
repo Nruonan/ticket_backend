@@ -1,9 +1,9 @@
-package org.xzn.index12306.frameworks.starter.convention.exception;
+package org.xzn.index12306.framework.starter.convention.exception;
 
 import java.util.Optional;
 import lombok.Getter;
 import org.springframework.util.StringUtils;
-import org.xzn.index12306.frameworks.starter.convention.errorcode.IErrorCode;
+import org.xzn.index12306.framework.starter.convention.errorcode.IErrorCode;
 
 /**
  * @author Nruonan

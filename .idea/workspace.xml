@@ -4,24 +4,83 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2e9989f-8a83-4508-a754-1b49b6cb7e9c" name="更改" comment="feat(frameworks): 新增数据库等模块" />
+    <list default="true" id="c2e9989f-8a83-4508-a754-1b49b6cb7e9c" name="更改" comment="feat(frameworks): 添加幂等组件">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frameworks/idempotent/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frameworks/idempotent/src/main/java/org/xzn/index12306/framework/starter/idempotent/config/IdempotentAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frameworks/idempotent/src/main/java/org/xzn/index12306/framework/starter/idempotent/config/IdempotentProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frameworks/idempotent/src/main/java/org/xzn/index12306/framework/starter/idempotent/core/AbstractIdempotentExecuteHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frameworks/idempotent/src/main/java/org/xzn/index12306/framework/starter/idempotent/core/IdempotentAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frameworks/idempotent/src/main/java/org/xzn/index12306/framework/starter/idempotent/core/IdempotentContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frameworks/idempotent/src/main/java/org/xzn/index12306/framework/starter/idempotent/core/IdempotentExecuteHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frameworks/idempotent/src/main/java/org/xzn/index12306/framework/starter/idempotent/core/IdempotentExecuteHandlerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frameworks/idempotent/src/main/java/org/xzn/index12306/framework/starter/idempotent/core/IdempotentParamWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frameworks/idempotent/src/main/java/org/xzn/index12306/framework/starter/idempotent/core/RepeatConsumptionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frameworks/idempotent/src/main/java/org/xzn/index12306/framework/starter/idempotent/core/param/IdempotentParamExecuteHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frameworks/idempotent/src/main/java/org/xzn/index12306/framework/starter/idempotent/core/param/IdempotentParamService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frameworks/idempotent/src/main/java/org/xzn/index12306/framework/starter/idempotent/core/spel/IdempotentSpELByMQExecuteHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frameworks/idempotent/src/main/java/org/xzn/index12306/framework/starter/idempotent/core/spel/IdempotentSpELByRestAPIExecuteHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frameworks/idempotent/src/main/java/org/xzn/index12306/framework/starter/idempotent/core/spel/IdempotentSpELService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frameworks/idempotent/src/main/java/org/xzn/index12306/framework/starter/idempotent/core/token/IdempotentTokenController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frameworks/idempotent/src/main/java/org/xzn/index12306/framework/starter/idempotent/core/token/IdempotentTokenExecuteHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frameworks/idempotent/src/main/java/org/xzn/index12306/framework/starter/idempotent/core/token/IdempotentTokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frameworks/idempotent/src/main/java/org/xzn/index12306/framework/starter/idempotent/enums/IdempotentMQConsumeStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frameworks/idempotent/src/main/java/org/xzn/index12306/framework/starter/idempotent/enums/IdempotentTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frameworks/idempotent/src/main/java/org/xzn/index12306/framework/starter/idempotent/toolkit/LogUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frameworks/idempotent/src/main/java/org/xzn/index12306/framework/starter/idempotent/toolkit/SpELUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frameworks/idempotent/src/main/resources/lua/set_if_absent_and_get.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frameworks/convention/src/main/java/org/xzn/index12306/frameworks/starter/convention/errorcode/BaseErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/frameworks/convention/src/main/java/org/xzn/index12306/framework/starter/convention/errorcode/BaseErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frameworks/convention/src/main/java/org/xzn/index12306/frameworks/starter/convention/errorcode/IErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/frameworks/convention/src/main/java/org/xzn/index12306/framework/starter/convention/errorcode/IErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frameworks/convention/src/main/java/org/xzn/index12306/frameworks/starter/convention/exception/AbstractException.java" beforeDir="false" afterPath="$PROJECT_DIR$/frameworks/convention/src/main/java/org/xzn/index12306/framework/starter/convention/exception/AbstractException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frameworks/convention/src/main/java/org/xzn/index12306/frameworks/starter/convention/exception/ClientException.java" beforeDir="false" afterPath="$PROJECT_DIR$/frameworks/convention/src/main/java/org/xzn/index12306/framework/starter/convention/exception/ClientException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frameworks/convention/src/main/java/org/xzn/index12306/frameworks/starter/convention/exception/RemoteException.java" beforeDir="false" afterPath="$PROJECT_DIR$/frameworks/convention/src/main/java/org/xzn/index12306/framework/starter/convention/exception/RemoteException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frameworks/convention/src/main/java/org/xzn/index12306/frameworks/starter/convention/exception/ServiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/frameworks/convention/src/main/java/org/xzn/index12306/framework/starter/convention/exception/ServiceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frameworks/convention/src/main/java/org/xzn/index12306/frameworks/starter/convention/page/PageRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/frameworks/convention/src/main/java/org/xzn/index12306/framework/starter/convention/page/PageRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frameworks/convention/src/main/java/org/xzn/index12306/frameworks/starter/convention/page/PageResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/frameworks/convention/src/main/java/org/xzn/index12306/framework/starter/convention/page/PageResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frameworks/convention/src/main/java/org/xzn/index12306/frameworks/starter/convention/result/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/frameworks/convention/src/main/java/org/xzn/index12306/framework/starter/convention/result/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frameworks/database/src/main/java/org/xzn/index12306/framework/starter/database/util/PageUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/frameworks/database/src/main/java/org/xzn/index12306/framework/starter/database/util/PageUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frameworks/designpattern/src/main/java/org/xzn/index12306/framework/starter/designpattern/strategy/AbstractStrategyChoose.java" beforeDir="false" afterPath="$PROJECT_DIR$/frameworks/designpattern/src/main/java/org/xzn/index12306/framework/starter/designpattern/strategy/AbstractStrategyChoose.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frameworks/idempotent/src/main/java/org/xzn/idempotent/IdempotentApplication.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/frameworks/log">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="WebConfiguration" />
         <option value="Enum" />
         <option value="Interface" />
-        <option value="WebConfiguration" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/frameworks/idempotent" />
   </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="aae6da51-653b-474e-95f5-88200b2edcf8" />
@@ -37,47 +96,55 @@
     </option>
   </component>
   <component name="ProjectId" id="2u9x85PBuLG62xqdUPt4b0Bko1Q" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/12306&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;问题&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;c48d3c3f0d557020839c9416643f4622&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "21",
+    "last_opened_file_path": "G:/12306/frameworks/idempotent/src/main/java/org/xzn/index12306/framework/starter/idempotent/core/spel",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "问题",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "spring.configuration.checksum": "c48d3c3f0d557020839c9416643f4622",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\12306\frameworks\database\src\main\java\org\xzn\index12306\framework\starter\database" />
-      <recent name="G:\12306\frameworks\database\src\main\java\org\xzn\index12306\framework\starter\database\base" />
-      <recent name="G:\12306\frameworks\database\src\main" />
-      <recent name="G:\12306\frameworks\convention\src\main\java\org\xzn\index12306\frameworks\starter\convention" />
-      <recent name="G:\12306\frameworks\designpattern\src\main\java" />
+      <recent name="G:\12306\frameworks\idempotent\src\main\java\org\xzn\index12306\framework\starter\idempotent\core\spel" />
+      <recent name="G:\12306\frameworks\idempotent\src\main\resources" />
+      <recent name="G:\12306\frameworks\idempotent\src\main\java\org\xzn\index12306\framework\starter\idempotent" />
+      <recent name="G:\12306\frameworks\log\src\main\java" />
+      <recent name="G:\12306\frameworks\log\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\12306\frameworks\log\src\main" />
+      <recent name="G:\12306\frameworks\distributedid\src\main" />
       <recent name="G:\12306\frameworks\base\src\main\resources\META-INF\spring" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.xzn.index12306.framework.starter.idempotent.enums" />
+      <recent name="org.xzn.index12306.framework.starter.idempotent.config" />
+      <recent name="org.xzn.index12306.framework.starter.idempotent.core" />
+      <recent name="org.xzn.index12306.framework.starter.idempotent.core.spel" />
       <recent name="org.xzn.index12306.framework.starter.designpattern.chain" />
     </key>
   </component>
@@ -143,6 +210,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IdempotentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="index12306-idempotent-spring-boot-starter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.xzn.idempotent.IdempotentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="index12306-log-spring-boot-starter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.log.LogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="index12306-log-spring-boot-starter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.xzn.log.LogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="index12306-user-spring-boot-starter" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.xzn.user.UserApplication" />
@@ -183,6 +271,9 @@
       <workItem from="1741699270536" duration="186000" />
       <workItem from="1741699470601" duration="119000" />
       <workItem from="1741699600952" duration="97000" />
+      <workItem from="1741699710965" duration="380000" />
+      <workItem from="1741700152643" duration="2751000" />
+      <workItem from="1741747917141" duration="10384000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 初始化项目结构和基础配置">
       <option name="closed" value="true" />
@@ -216,7 +307,39 @@
       <option name="project" value="LOCAL" />
       <updated>1741696836496</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat(frameworks): 新增多个框架基础组件类">
+      <option name="closed" value="true" />
+      <created>1741699788525</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1741699788525</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat(frameworks): 添加分布式 ID 生成器模块">
+      <option name="closed" value="true" />
+      <created>1741748688962</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1741748688962</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat(frameworks): 添加分布式 ID 生成器模块">
+      <option name="closed" value="true" />
+      <created>1741750039587</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1741750039587</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat(frameworks): 添加日志打印功能">
+      <option name="closed" value="true" />
+      <created>1741751327726</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1741751327726</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +373,11 @@
     <MESSAGE value="feat(frameworks): 添加线程池相关功能和工具类" />
     <MESSAGE value="feat(frameworks): 添加设计模式模块" />
     <MESSAGE value="feat(frameworks): 新增数据库等模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(frameworks): 新增数据库等模块" />
+    <MESSAGE value="feat(frameworks): 新增多个框架基础组件类" />
+    <MESSAGE value="feat(frameworks): 添加分布式 ID 生成器模块" />
+    <MESSAGE value="feat(frameworks): 添加日志打印功能" />
+    <MESSAGE value="feat(frameworks): 添加幂等组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(frameworks): 添加幂等组件" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

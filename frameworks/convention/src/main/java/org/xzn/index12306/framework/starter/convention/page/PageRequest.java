@@ -1,4 +1,4 @@
-package org.xzn.index12306.frameworks.starter.convention.page;
+package org.xzn.index12306.framework.starter.convention.page;
 
 import lombok.Data;
 

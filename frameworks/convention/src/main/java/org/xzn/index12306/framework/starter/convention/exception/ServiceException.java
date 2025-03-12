@@ -1,8 +1,8 @@
-package org.xzn.index12306.frameworks.starter.convention.exception;
+package org.xzn.index12306.framework.starter.convention.exception;
 
 import java.util.Optional;
-import org.xzn.index12306.frameworks.starter.convention.errorcode.BaseErrorCode;
-import org.xzn.index12306.frameworks.starter.convention.errorcode.IErrorCode;
+import org.xzn.index12306.framework.starter.convention.errorcode.BaseErrorCode;
+import org.xzn.index12306.framework.starter.convention.errorcode.IErrorCode;
 
 public class ServiceException extends AbstractException {
 

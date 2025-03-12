@@ -6,12 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="index12306-base-spring-boot-starter" />
+        <module name="index12306-distributedid-spring-boot-starter" />
+        <module name="idempotent" />
         <module name="index12306-designpattern-spring-boot-starter" />
+        <module name="index12306-database-spring-boot-starter" />
+        <module name="index12306-log-spring-boot-starter" />
+        <module name="index12306-idempotent-spring-boot-starter" />
+        <module name="index12306-base-spring-boot-starter" />
         <module name="index12306-convention-spring-boot-starter" />
         <module name="index12306-common-spring-boot-starter" />
         <module name="index12306-user-spring-boot-starter" />
-        <module name="index12306-database-spring-boot-starter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,7 +27,8 @@
       <module name="dependencies" target="1.8" />
       <module name="designpattern" target="1.8" />
       <module name="frameworks" target="1.8" />
-      <module name="index12306-log-spring-boot-starter" target="17" />
+      <module name="idempotent" target="1.8" />
+      <module name="log" target="1.8" />
       <module name="services" target="1.8" />
       <module name="user" target="1.8" />
     </bytecodeTargetLevel>

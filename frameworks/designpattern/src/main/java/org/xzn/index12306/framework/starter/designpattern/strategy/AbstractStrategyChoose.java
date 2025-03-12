@@ -8,7 +8,7 @@ import org.springframework.context.ApplicationListener;
 import org.springframework.util.StringUtils;
 import org.xzn.index12306.framework.starter.bases.ApplicationContextHolder;
 import org.xzn.index12306.framework.starter.bases.init.ApplicationInitializingEvent;
-import org.xzn.index12306.frameworks.starter.convention.exception.ServiceException;
+import org.xzn.index12306.framework.starter.convention.exception.ServiceException;
 
 
 /**
